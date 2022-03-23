@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display:block;
+    background-color: black;
+}
+
+.inner_header{
+    width: 92%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Quicksand';
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo_container h1 span{
+    font-weight: 800;
+}
+
+.navigation{ 
+    float:right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display:table;
+    float: left;
+    padding: 0px 20px;
+
+}
+.navigation a:last-child{
+    padding-right:0px;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height : 100%;
+    color: white;
+    font-family: 'Quicksand';
+    font-size: 16px;
+}
+
+.slider{    
+    background: white;
+    border-radius: 10px;
+    padding: 150px;
+    width: 30%;
+    display: block;
+    margin: 100px 100px ;
+    margin-left: 10px;
+    float: right;
+    box-shadow: 5px 5px 10px rgba(59,59,59,0.450);
+    animation-name:fade;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    align-items: center;
+    font-family: 'Quicksand';
+}   
+.sublinhar{
+    font-weight: 200px !important;
+}
+#textoSlide{
+    align-items: center;
+    color: black;
+    font-size: 45px;
+}
+#textoSlide span{ font-weight: 330;}
+
+@keyframes fade {
+    0% { 
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    80%{
+        opacity:1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.Apresentation {
+    background: #f7f7f7;
+    padding: 150px;
+    width:350px;
+    display: block;
+    margin: 100px 100px;
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+.container-about{
+    margin: auto;
+    float: center;
+    margin-bottom: 50px;
+}
+
+.titulo{
+    font-family: 'Quicksand';
+    font-size: 80px;
+    align-self: center;;
+    text-align: center;
+    font-weight: 100;
+}
+
+.pesquisa{
+    font-family: 'Quicksand';
+    font-size: 16px;
+    margin: 40px 100px 40px 100px;
+    text-align: center;
+}
+
+.centro{
+    text-align: center;
+    font-weight: 700;
+}
+
+.img-responsive{
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.fim{
+    margin-top:120px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.vid-responsive{
+    width: 50%;
+    display: block;
+    margin:auto;    
+    margin-bottom: 0px;
+}
+.link-vermelho{
+    color: red;
+    text-decoration:underline
+}

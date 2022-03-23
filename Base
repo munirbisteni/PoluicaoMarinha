@@ -1,0 +1,30 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="inner_header">
+            <div class="logo_container">
+                <h1>Poluição<span>Marinha</span></h1>
+            </div>
+
+            <ul class="navigation">
+                <a><li>Home</li></a>
+                <a><li>About</li></a>
+                <a><li>Discovery</li></a>
+                <a><li>Contact</li></a>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
+-->
